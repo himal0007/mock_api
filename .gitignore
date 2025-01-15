@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Unignore specific files and folders
+!build/
+!build/web/
+!build/web/**
+
+# Ignore the build and build/web directories themselves
+build/
+!build/web/**
+
+# Ignore subfolders to ensure only contents are added
+build/web/*
+!build/web/*.*
